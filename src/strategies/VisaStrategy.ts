@@ -6,7 +6,7 @@ export class VisaStrategy implements CardPaymentStrategy {
 
   execute(userId: string, amount: number): PaymentResponse {
     console.log(
-      `Visa approved the transaction for ${userId} in the amount of ${amount}.`
+      `Visa approved the transaction for ${userId} in the amount of $${amount}.`
     );
     return { isSuccess: true };
   }
