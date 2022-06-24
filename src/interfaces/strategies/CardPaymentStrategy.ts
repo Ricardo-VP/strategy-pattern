@@ -1,4 +1,4 @@
-import { PaymentStrategy } from "./PaymentStrategy";
+import { PaymentStrategy } from "../PaymentStrategy";
 
 export interface CardPaymentStrategy extends PaymentStrategy {
     cardNumber: string;
